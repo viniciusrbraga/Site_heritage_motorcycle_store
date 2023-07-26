@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Genos', sans-serif;
+    font-weight: normal;
+}
+
+header li a {
+    color: #f7f6b9;
+    text-decoration: none;
+}
+
+header li a:hover {
+    text-decoration: underline;
+}
+
+body,
+input,
+textarea {
+    font-family: 'Agdasima', sans-serif;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #1d5324;
+    color: #f7f6b9;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 120px;
+}
+
+form button {
+    background-color: #1d5324;
+    color: #f7f6b9;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #509e31;
+}
+
+section p {
+    margin-bottom: 8px;
+    padding: 12px;
+}
+
+#about .container {
+    display: flex;
+    margin: 24px 36px;
+    width: 1224px;
+}
+
+#motorcycle h2,
+#helmet h2 {
+    margin-left: 64px;
+    padding: 18px;
+}
+
+#motorcycle img,
+#helmet img {
+    margin: 24px 24px;
+    width: 25%;
+    align-items: center;
+    vertical-align: middle;
+}
+
+#motorcycle li,
+#helmet li {
+    display: inline;
+}
+
+.contato {
+    margin-left: 64px;
+}
+
+.logos img {
+    height: 24px;
+}
+
+.logos li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.logos {
+    margin-bottom: 24px;
+}
+
+footer {
+    background-color: #1d5324;
+    color: #f7f6b9;
+    padding: 12px 0px;
+    text-align: center;
+}
